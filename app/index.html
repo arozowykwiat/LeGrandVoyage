@@ -17,17 +17,12 @@
     <H1 ng-bind="po.poesie[index].title"></h1>
     <div ng-hide="po.poesieGrec[0].strophe" ng-bind-html="po.poesieGrec[0].strophe"></div>
     <H1 ng-bind="po.poesieGrec[index].title"></h1>
-
+    <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:index}">
     <div  class="col-sm-6">
-        <div ng-repeat="poe in po.poesie| filter:{idPoeme:index}">  
-            <p ng-bind-html="poe.strophe">A</p>
-        </div>
+            <p ng-bind-html="poe.stropheGr"></p>
     </div>
      <div  class="col-sm-6">
-        <div ng-repeat="poe in po.poesieGrec| filter:{idPoeme:index}">  
-            <p ng-bind-html="poe.strophe">B</p>
-
-        </div>
+            <p ng-bind-html="poe.strophe"></p>
     </div>
   </div>
 </div>
