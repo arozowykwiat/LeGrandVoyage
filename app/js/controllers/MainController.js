@@ -23,16 +23,18 @@ var poeme=[
 		idPoeme:1,
 		idStrophe:4,
 		stropheGr:"<p>τις έννοιες σ’ έναν άναρθρο καιρό<br/>συνωνύμων. Έφτασ’ έτσι ραγδαία<br/>του δικτάτορα η ώρα στην ψυχή<br/>καθενός: δεν κυβερνά με τη βία,<br/>συγχέει εγωισμό κι αυτογνωσία,/p>",
-		
+		strophe:"<p>le sens dans une ère inarticulée<br/>de synonymes. Elle arrive vite,<br/>l’heure du dictateur dans l’âme de chacun :<br/>lui ne gouverne pas par la violence,<br/>il confond égoïsme et connaissance</p>"		
 	},
 	{
 		idPoeme:1,
 		idStrophe:5,
 		stropheGr:"<p>εξωραΐζει την αλαζονεία,<br/>πίνει πετρέλαιο αντί για νερό.<br/>Ό,τι γράφεις την ώρα που θάρρεψε<br/>πως γνωρίζει αρκετά και σκοτώνει<br/>το δάσκαλο, την ώρα που αγνοεί</p>",
+		strophe:"<p>de soi, il magnifie l’arrogance<br/>et boit du pétrole à la place de l’eau.<br/>Ce que tu écris à l’heure qui croit<br/>en savoir assez pour tuer le maître,<br/>à l’heure qui élude l’ascèse du besoin,</p>"
 	},	
 	{
 		idPoeme:1,
 		idStrophe:6,
+		strophe:"<p>neutralise l’âme, évacue la passion,<br/>ce que tu écris appartient<br/>à un âge sans lendemain.</p>",		
 		stropheGr:"<p>της ανάγκης την άσκηση, αδρανεί<br/>την ψυχή κι αποβάλλει το πάθος,<br/>ανήκει σ’ έναν καιρό δίχως αύριο.</p>",
 	},	
 	{
