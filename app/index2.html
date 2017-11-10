@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Le Grand Voyage</title>
+     <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body ng-app="grandVoyageApp">
+
+       <div ng-controller="MainController as po">
+        <input type="text" ng-model="index" placeholder="index">
+        
+        <div ng-hide="po.poesie[0].strophe" ng-bind-html="po.poesie[0].strophe"></div>
+        <H1 ng-bind="po.poesie[index].title"></h1>
+        <div  class="col-sm-6" ng-repeat="poe in po.poesie| filter:{idPoeme:index}">
+            
+            <p ng-bind-html="poe.strophe"></p>
+        </div>
+         <div ng-hide="po.poesieGrec[0].strophe" ng-bind-html="po.poesieGrec[0].strophe"></div>
+        <H1 ng-bind="po.poesieGrec[index].title"></h1>
+        <div  class="col-sm-6" ng-repeat="poe in po.poesieGrec| filter:{idPoeme:index}">
+            
+            <p ng-bind-html="poe.strophe"></p>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-sanitize.js"></script>
+    <script src="js/controllers/MainController.js"></script>
+</body>
+</html>
