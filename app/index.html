@@ -17,7 +17,7 @@
     <H1 ng-bind="po.poesie[index].title"></h1>
     <div ng-hide="po.poesieGrec[0].strophe" ng-bind-html="po.poesieGrec[0].strophe"></div>
     <H1 ng-bind="po.poesieGrec[index].title"></h1>
-    <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:index}">
+    <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:index}|filter:{idStrophe:1}:true">
     <div  class="col-sm-6">
             <p ng-bind-html="poe.stropheGr"></p>
     </div>
