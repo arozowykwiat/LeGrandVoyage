@@ -193,7 +193,8 @@ var poeme=[
 		strophe:"<p>Τα ψάρια μού μιλάνε πιο καλά<br/>απ’ την αγάπη πούχεις αρνηθεί.</p>"
 
 	}
-	]
+	];
+
 
 var MainController = function(){
 	this.poesie=poeme;
