@@ -194,7 +194,16 @@ var poeme=[
 
 	}
 	];
-
+app.filter('filterOption', function () {  
+    return function(inputs,filterValues) {
+      var output = [];
+      angular.forEach(inputs, function (input) {
+        if (filterValues.indexOf(input.idStrophe) !== -1)
+            output.push(input);
+       });
+       return output;
+   };
+});
 
 var MainController = function(){
 	this.poesie=poeme;

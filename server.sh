@@ -1,1 +1,1 @@
-node scripts/web-server.sh
+node scripts/web-server.js
