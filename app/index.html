@@ -85,12 +85,16 @@
       <div  class="col-sm-6">
         <h3 ng-bind="poe.titreGr"
     class="ng-cloak"></h3>
-        <h4 ng-bind="poe.partie"></h4>
       </div>
       <div  class="col-sm-6">
         <h3 ng-bind="poe.titre"
     class="ng-cloak"></h3>
-      <h4 ng-bind="poe.partie"></h4>
+      </div>
+  </div>
+
+    <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:2}| filter:{idStrophe:1}:true">
+      <div  class="col-sm-12">
+        <h4 ng-bind="poe.partie"></h4>
       </div>
   </div>
   
@@ -155,10 +159,7 @@
   <hr/> 
 
     <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:2}| filter:{idStrophe:10}:true">
-      <div  class="col-sm-6">
-        <h4 ng-bind="poe.partie"></h4>
-      </div>
-      <div  class="col-sm-6">
+      <div  class="col-sm-12">
         <h4 ng-bind="poe.partie"></h4>
       </div>
     </div>
@@ -255,10 +256,7 @@
     <hr/>
 
       <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:2}| filter:{idStrophe:22}:true">
-      <div  class="col-sm-6">
-        <h4 ng-bind="poe.partie"></h4>
-      </div>
-      <div  class="col-sm-6">
+      <div  class="col-sm-12">
         <h4 ng-bind="poe.partie"></h4>
       </div>
     </div>
