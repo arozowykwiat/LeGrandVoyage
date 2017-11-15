@@ -48,6 +48,8 @@ var poeme=[
 	{
 		idPoeme:2,
 		idStrophe:1,
+		titre:"Le bateau ⎠",
+		titreGr:"⎝ Το καράβι",		
 		partie:"I",
 		strophe:"<p>Comment mouillera-t-il, ce bateau,<br/>attaché qu’il est sur la grève ? Où ira-t-il<br/>maintenant que les vents sont paralysés ?<br/>Regarde le gros temps qui approche ;<br/>la nuit tombe et la rampe est trempée.</p>",
 		stropheGr:"<p>Πώς θα σαλπάρει τούτο το καράβι,<br/>καθώς το δέσαν έτσι στο γιαλό; Πού<br/>θα τραβήξει σαν έχουν οι ανέμοι<br/>παραλύσει; Bαρύς καιρός σιμώνει<br/>και σαν νυχτώνει, βρεμένη η κουπαστή.</p>"	
@@ -118,7 +120,7 @@ var poeme=[
 	{
 		idPoeme:2,
 		idStrophe:12,
-		strophe:"<p>J’aime bien les monstres qui froncent le sourcil<br/>et la faux qui s’abat en luisant sur le champ doré :<br/>sa lame dure épure le fruit trouble des esprits./p>",
+		strophe:"<p>J’aime bien les monstres qui froncent le sourcil<br/>et la faux qui s’abat en luisant sur le champ doré :<br/>sa lame dure épure le fruit trouble des esprits.</p>",
 		stropheGr:"<p>Μ’ αρέσουνε τα σουφρωμένα φρύδια των τεράτων,<br/>τα δρέπανα που αστραφτοκοπούν θερίζοντας<br/>χρυσαφένιο αγρό: σκληρό λεπίδι καθαρίζει</p>"	
 	},
 	{
@@ -149,13 +151,13 @@ var poeme=[
 		idPoeme:2,
 		idStrophe:17,
 		strophe:"<p>et les dieux. Détrompe l’illusion. Les anges<br/>sont tes fidèles alliés. Ces féroces guerriers<br/>frappent d’instinct sans pitié les membres fluets.</p>",
-		strophe:"<p>ανάμεσα στο είναι και στους αθάνατους θεούς.<br/>Mη γελαστείς από τις όψεις. Έχεις αγγέλους<br/>σύμμαχους πιστούς. Eίναι σκληροί πολεμιστάδες,</p>"
+		stropheGr:"<p>ανάμεσα στο είναι και στους αθάνατους θεούς.<br/>Mη γελαστείς από τις όψεις. Έχεις αγγέλους<br/>σύμμαχους πιστούς. Eίναι σκληροί πολεμιστάδες,</p>"
 	},
 	{
 		idPoeme:2,
 		idStrophe:18,
 		strophe:"<p>Laisse les implacables tueurs, instruments du destin,<br/>exécuteurs du temps, tisser le filet prévu par la loi ;<br>l’univers est ainsi accompli. Quand les ancres se lèvent</p>",
-		strophe:"<p>αλύπητοι φονιάδες, με ένστικτο που νιώθει<br/>τους ευαίσθητους αρμούς. Άφησε να κεντήσουνε<br>το δίχτυ, καθώς από το νόμο έχει οριστεί.</p>"
+		stropheGr:"<p>αλύπητοι φονιάδες, με ένστικτο που νιώθει<br/>τους ευαίσθητους αρμούς. Άφησε να κεντήσουνε<br>το δίχτυ, καθώς από το νόμο έχει οριστεί.</p>"
 	},
 	{
 		idPoeme:2,
@@ -192,7 +194,7 @@ var poeme=[
 		idPoeme:2,
 		idStrophe:24,
 		strophe:"<p>Les poissons sont bien plus éloquents<br/>que la passion reniée.</p>",
-		strophe:"<p>Τα ψάρια μού μιλάνε πιο καλά<br/>απ’ την αγάπη πούχεις αρνηθεί.</p>"
+		stropheGr:"<p>Τα ψάρια μού μιλάνε πιο καλά<br/>απ’ την αγάπη πούχεις αρνηθεί.</p>"
 
 	}
 	];
