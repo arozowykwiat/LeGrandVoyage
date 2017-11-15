@@ -196,7 +196,7 @@ var poeme=[
 
 	}
 	];
-app.filter('filterOption', function () {  
+app.filter('filterStrophe', function () {  
     return function(inputs,filterValues) {
       var output = [];
       angular.forEach(inputs, function (input) {

@@ -25,7 +25,7 @@
       </div>
     </div>
   
-    <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:1}| filterOption:[1,2]" class="ng-cloak">
+    <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:1}| filterStrophe:[1,2]" class="ng-cloak">
     <div  class="col-sm-6">
             <p ng-bind-html="poe.stropheGr"></p>
     </div>
