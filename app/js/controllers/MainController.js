@@ -196,6 +196,78 @@ var poeme=[
 
 	}
 	];
+var photo=[
+	{
+		idPhoto:1,
+		file:"",
+		key:"athenes"
+	},
+	{
+		idPhoto:2,
+		file:"josef-maria-eder-serpent.jpg",
+		key:"serpent"
+	},
+	{
+		idPhoto:3,
+		file:"matthias-muller-upright-piano.jpg",
+		key:"piano"
+	},
+	{
+		idPhoto:4,
+		file:"turner.jpg",
+		key:"turner"
+	},
+	{
+		idPhoto:5,
+		file:"paul-k-cetace.jpg",
+		key:"cétacé"
+	},
+	{
+		idPhoto:6,
+		file:"o-sullivan-desert.jpg",
+		key:"désert"
+	},
+	{
+		idPhoto:7,
+		file:"bdavies-waves.jpg",
+		key:"vague"
+	},
+	{
+		idPhoto:8,
+		file:"whisthler-barque.jpg",
+		key:"barque"
+	},
+	{
+		idPhoto:9,
+		file:"john-thomson-port.jpg",
+		key:"port"
+	},
+	{
+		idPhoto:10,
+		file:"harpy-Aldrovandi.jpg",
+		key:"harpie"
+	},
+	{
+		idPhoto:11,
+		file:"pierre-paul-albert-bernard-etreinte.jpg",
+		key:"étreinte"
+	},
+	{
+		idPhoto:12,
+		file:"pierre-paul-albert-bernard-mort.jpg",
+		key:"crâne"
+	},
+	{
+		idPhoto:13,
+		file:"constable-clouds.jpg",
+		key:"nuage"
+	},
+	{
+		idPhoto:14,
+		file:"",
+		key:"migrateurs"
+	}
+	];
 app.filter('filterStrophe', function () {  
     return function(inputs,filterValues) {
       var output = [];
@@ -209,6 +281,7 @@ app.filter('filterStrophe', function () {
 
 var MainController = function(){
 	this.poesie=poeme;
+	this.photo=photo;
 }
 app.controller("MainController",MainController);
 }());
