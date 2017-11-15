@@ -13,12 +13,19 @@
 
 <div class="container" ng-controller="MainController as po">
 
-    <input type="text" ng-model="index" placeholder="index" class="ng-cloak">  
-    <div ng-hide="po.poesie[0].strophe" ng-bind-html="po.poesie[0].strophe" class="ng-cloak"></div>
-    <H1 ng-bind="po.poesie[index].title" class="ng-cloak"></h1>
-    <div ng-hide="po.poesieGrec[0].strophe" ng-bind-html="po.poesieGrec[0].strophe" class="ng-cloak"></div>
-    <H1 ng-bind="po.poesieGrec[index].title" class="ng-cloak"></h1>
-    <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:index}| filterOption:[1,2,3]" class="ng-cloak">
+    
+    <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:1}| filter:{idStrophe:1}">
+      <div  class="col-sm-6">
+        <h1 ng-bind="poe.titreGr"
+    class="ng-cloak"></h1>
+      </div>
+      <div  class="col-sm-6">
+        <h1 ng-bind="poe.titre"
+    class="ng-cloak"></h1>
+      </div>
+    </div>
+  
+    <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:1}| filterOption:[1,2]" class="ng-cloak">
     <div  class="col-sm-6">
             <p ng-bind-html="poe.stropheGr"></p>
     </div>
@@ -26,6 +33,7 @@
             <p ng-bind-html="poe.strophe"></p>
     </div>
   </div>
+  <hr/> 
 </div>
      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-sanitize.js"></script>

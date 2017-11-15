@@ -4,6 +4,8 @@ var poeme=[
 	{
 		idPoeme:1,
 		idStrophe:1,
+		titre:"Ce que tu écris… ⎠",
+		titreGr:"⎝ Ό,τι γράφεις...",
 		strophe:"<p>… sera lu dans un futur qui peut-être<br>n’existera pas ; il glisse sur l’écume<br/>de glaciers qui fondent. Ce que tu écris<br/>appartient au passé qui a toujours paru,<br/>depuis le temps du serpent, innocent.</p>",
 		stropheGr:"<p>… θα διαβαστεί σ’ ένα μέλλον που ίσως<br>δεν υπάρξει ποτέ. Γλιστρά στον αφρό<br/>παγετώνων που λιώνουν· ό,τι γράφεις<br/>ανήκει σ’ ένα παρελθόν που έμοιαζε<br/>πάντα, απ’ τον καιρό του φιδιού, αθώο.</p>"
 	},
