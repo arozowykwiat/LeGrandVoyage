@@ -1,5 +1,5 @@
 (function(){
-var app = angular.module("grandVoyageApp",['ngSanitize']);
+var app = angular.module("grandVoyageApp",['ngSanitize','ngRoute','deviceTypeProvider']);
 var poeme=[
 	{
 		idPoeme:1,
@@ -285,5 +285,19 @@ var MainController = function(){
 	this.poesie=poeme;
 	this.photo=photo;
 }
-app.controller("MainController",MainController);
+
+app.config(['$routeProvider','deviceTypeProvider',
+   function($routeProvider,deviceTypeProvider) {
+     var deviceTypeProvider = deviceTypeProvider.$get(),
+         deviceType = deviceTypeProvider.getDeviceType();
+     /*Route to Desktop view*/
+     $routeProvider.when('/',{
+            templateUrl:   'view/'+deviceType+'/profileTemplate.html',
+            controller: 'MainController',
+            styleType:deviceType
+        });
+  }]);
+
+
+app.controller("MainController",[MainController]);
 }());
