@@ -288,10 +288,10 @@ var MainController = function(){
 
 app.config(['$routeProvider','deviceTypeProvider',
    function($routeProvider,deviceTypeProvider) {
-     var deviceTypeProvider = deviceTypeProvider.$get(),
+     	var deviceTypeProvider = deviceTypeProvider.$get(),
          deviceType = deviceTypeProvider.getDeviceType();
-     /*Route to Desktop view*/
-     $routeProvider.when('/',{
+    	 /*Route to Desktop view*/
+    	 $routeProvider.when('/',{
             templateUrl:   'view/'+deviceType+'/profileTemplate.html',
             controller: 'MainController',
             styleType:deviceType
