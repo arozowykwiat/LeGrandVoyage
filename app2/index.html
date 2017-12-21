@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="grandVoyageApp">
+<head>
+  <title>Le grand voyage</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=YES">
+
+  <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/angular.css" rel="stylesheet">
+     <link ng-if="styleType.length > 0"
+              ng-href='css/{{styleType}}.css'
+              rel='stylesheet' type='text/css' >
+</head>
+<body>
+
+   <div ng-view></div>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-sanitize.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.6/angular-resource.min.js"></script>
+    <script src="js/controllers/MainController.js"></script>
+    <script src="js/deviceTypeProvider.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/animation-jquery.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+</body>
+</html>
+
+
