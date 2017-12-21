@@ -1,4 +1,26 @@
 <div class="container" ng-controller="MainController as po">
+    <section>
+          <div class="row" ng-repeat="exp in po.explication|filter:{idExplication:1}:true">
+            <div  class="col-sm-12">
+              <div ng-bind-html="exp.explication"
+          class="ng-cloak"></div>
+            </div>
+          </div>       
+        </section>
+    <hr/>
+    <section>
+      <div class="row" ng-repeat="vid in  po.video|filter:{idVideo:2}:true" class="ng-cloak">
+        <div  class="col-sm-12">
+          <video controls class="videocontainer" poster="video/png/{{vid.file}}.png" autobuffer="true" controlsList="nodownload" contextmenu="return false" oncontextmenu="return false">
+              <source src="video/mp4/{{vid.file}}.mp4" autoplay="false"  controller="true" width="500px" height="281px" type="video/mp4"  preload="auto" allowfullscreen="true" >
+              <source src="video/webm/{{vid.file}}.webm" autoplay="false"  controller="true" width="500px" height="281px" type="video/webm"  preload="auto" allowfullscreen="true" >
+              <source src="video/ogv/{{vid.file}}.ogv" autoplay="false"  controller="true" width="500px" height="281px" type="video/ogv"  preload="auto" allowfullscreen="true" >
+    
+          </video>
+        </div>
+      </div>
+    </section>
+    <hr/> 
     <section> 
       <div class="row">
         <div  class="col-sm-12">

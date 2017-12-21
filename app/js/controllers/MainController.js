@@ -547,6 +547,32 @@ var photo=[
 		key:"migrateurs"
 	}
 	];
+var video=[
+	{
+		idVideo:1,
+		file:"maria_pourquoi",
+	},
+	{
+		idVideo:2,
+		file:"maria_sens",
+	},
+	{
+		idVideo:3,
+		file:"stephane_architecture",
+	},
+	{
+		idVideo:4,
+		file:"stephane_livre",
+	},
+	{
+		idVideo:5,
+		file:"retour",
+	},
+	{
+		idVideo:6,
+		file:"migrateurs",
+	}					
+];
 app.filter('filterStrophe', function () {  
     return function(inputs,filterValues) {
       var output = [];
@@ -561,6 +587,7 @@ app.filter('filterStrophe', function () {
 var MainController = function(){
 	this.poesie=poeme;
 	this.photo=photo;
+	this.video=video;
 	this.explication=explication;
 }
 
