@@ -288,4 +288,31 @@
           </div>  
         </section>
         <hr/>
+        <section>
+          <div class="row" ng-repeat="exp in po.explication|filter:{idExplication:4}" class="ng-cloak">
+            <div  class="col-sm-12">
+              <p ng-bind-html="exp.explication"></p>
+            </div>
+          </div>
+        </section>
+        <hr/>
+        <section>
+          <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:10}:true" class="ng-cloak">
+            <div  class="col-sm-12">
+              <img ng-src="img/{{img.file}}" width="40%" />
+            </div>
+          </div>  
+        </section>
+        <hr/>
+        <section>
+          <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:3}| filter:{idStrophe:1}:true">
+            <div  class="col-sm-6">
+              <h4 ng-bind="poe.titreGr"></h4>
+            </div>
+            <div  class="col-sm-6">
+              <h4 ng-bind="poe.titre"></h4>
+            </div>
+          </div>
+        </section>
+        <hr/>
 </div> 
