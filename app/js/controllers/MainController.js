@@ -482,7 +482,7 @@ var explication=[
 var photo=[
 	{
 		idPhoto:1,
-		file:"",
+		file:"acropole.jpg",
 		key:"athenes"
 	},
 	{
