@@ -573,6 +573,20 @@ var video=[
 		file:"migrateurs",
 	}					
 ];
+var audio=[
+	{
+		idAudio:1,
+		file:"dense",
+	},
+	{
+		idAudio:2,
+		file:"nostalgie",
+	},
+	{
+		idAudio:3,
+		file:"barcarolles",
+	}
+];	
 app.filter('filterStrophe', function () {  
     return function(inputs,filterValues) {
       var output = [];
@@ -589,6 +603,7 @@ var MainController = function(){
 	this.photo=photo;
 	this.video=video;
 	this.explication=explication;
+	this.audio=audio;
 }
 
 app.config(['$routeProvider','deviceTypeProvider',
