@@ -304,7 +304,14 @@
           </div>  
         </section>
         <hr/>
-        
+        <section>
+          <div class="row" ng-repeat="exp in po.explication|filter:{idExplication:5}" class="ng-cloak">
+            <div  class="col-sm-12">
+              <p ng-bind-html="exp.explication"></p>
+            </div>
+          </div>
+        </section>
+        <hr/>        
         <section>
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:3}| filter:{idStrophe:1}:true">
             <div  class="col-sm-6">
@@ -323,6 +330,14 @@
                 <source ng-src="audio/{{aud.file}}.mp3" type="audio/mpeg" >
                 Votre navigateur ne supporte pas l'élément audio.
                 </audio>
+            </div>
+          </div>
+        </section>
+        <hr/>
+        <section> 
+          <div class="row">
+            <div  class="col-sm-12">
+              <h2>II</h2>
             </div>
           </div>
         </section>

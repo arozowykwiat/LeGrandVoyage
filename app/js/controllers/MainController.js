@@ -472,7 +472,11 @@ var explication=[
 	},
 	{
 		idExplication:4,
-		explication:"<p>Les Strophades mentionnées dans « Le bateau » (III, v. 5) sont un archipel de deux îlots au sud de Zante : l’un abrite un monastère gardé par un ermite ; l’autre, l’inhabité Harpie, est le lieu évoqué par Homère et Virgile, Dante et Rabelais, où la mythologie situe les divinités mi-femmes mi-oiseaux de la vengeance divine. Connues pour la beauté de leur parc naturel, passage des oiseaux migrateurs, elles sont à la fois prisées par les yachts en villégiature et les amateurs de plongée et redoutées par les navigateurs.</p>"
+		explication:"<p>Les Strophades mentionnées dans « Le bateau » sont un archipel de deux îlots au sud de Zante : l’un abrite un monastère gardé par un ermite ; l’autre, l’inhabité Harpie, est le lieu évoqué par Homère et Virgile, Dante et Rabelais, où la mythologie situe les divinités mi-femmes mi-oiseaux de la vengeance divine. Connues pour la beauté de leur parc naturel, passage des oiseaux migrateurs, elles sont à la fois prisées par les yachts en villégiature et les amateurs de plongée et redoutées par les navigateurs.</p>"
+	},
+	{
+		idExplication:5,
+		explication:"<p>Le poème fait en outre référence aux légendes qui relient l’histoire de leurs icônes aux mers grecques : conservée aujourd’hui à Zante, la Panagia Thalassomaque (Notre-Dame qui lutte contre la mer) aurait gagné les Strophades depuis Constantinople en naviguant seule sur les flots pour fuir l’iconomachie ; la Panagia Pantochara (Notre-Dame Liesse de l’univers) aurait été dérobée et vendue à Patmos, île de l’Apocalypse.</p>"
 	}	
 	];
 var photo=[
