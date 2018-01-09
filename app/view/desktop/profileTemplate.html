@@ -41,7 +41,7 @@
             </div>
           </div>
         
-          <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:1}| filterStrophe:[1,2]" class="ng-cloak">
+          <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:1}:true| filterStrophe:[1,2]" class="ng-cloak">
           <div  class="col-sm-6">
                   <p ng-bind-html="poe.stropheGr"></p>
           </div>
@@ -60,7 +60,7 @@
         </section>
       <hr/> 
         <section>
-          <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:1}| filterStrophe:[3,4]" class="ng-cloak">
+          <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:1}:true| filterStrophe:[3,4]" class="ng-cloak">
             <div  class="col-sm-6">
                     <p ng-bind-html="poe.stropheGr"></p>
             </div>
