@@ -547,7 +547,7 @@ var photo=[
 	},
 	{
 		idPhoto:14,
-		file:"",
+		file:"migrateurs.gif",
 		key:"migrateurs"
 	}
 	];
