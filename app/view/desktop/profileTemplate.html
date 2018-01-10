@@ -510,4 +510,53 @@
         </div>
       </div>
     </section> 
+    <hr/>
+             <section>
+          <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:8}| filter:{idStrophe:1}:true">
+            <div  class="col-sm-6">
+              <h4 ng-bind="poe.titreGr"></h4>
+            </div>
+            <div  class="col-sm-6">
+              <h4 ng-bind="poe.titre"></h4>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:8}:true| filterStrophe:[1,2,3,4]" class="ng-cloak">
+            <div  class="col-sm-6">
+              <p ng-bind-html="poe.stropheGr"></p>
+            </div>
+            <div  class="col-sm-6">
+              <p ng-bind-html="poe.strophe"></p>
+            </div>
+          </div>
+        </section>
+        <hr/>
+        <section>
+          <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:13}:true" class="ng-cloak">
+            <div  class="col-sm-12">
+              <img ng-src="img/{{img.file}}" width="40%" />
+            </div>
+          </div>  
+        </section>
+        <hr/>
+             <section>
+          <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:8}:true| filterStrophe:[5,6,7,8]" class="ng-cloak">
+            <div  class="col-sm-6">
+              <p ng-bind-html="poe.stropheGr"></p>
+            </div>
+            <div  class="col-sm-6">
+              <p ng-bind-html="poe.strophe"></p>
+            </div>
+          </div>
+        </section>
+        <hr/>
+        <section> 
+          <div class="row">
+            <div  class="col-sm-12">
+              <h2>III</h2>
+            </div>
+          </div>
+        </section>
+        <hr/>
 </div> 

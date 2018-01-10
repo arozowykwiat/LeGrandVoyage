@@ -272,7 +272,7 @@ var poeme=[
 	{
 		idPoeme:6,
 		idStrophe:4,
-		strophe:"<p>D’une rive à l’autre, à contre-courant,<br/>ils échouent dans le fleuve du Léthé ;<br/>vol des papillons violets, ivresse,<br/>chant des rossignols. Qu’elle est ténue<br/>la ligne quand s’évente<br>la renaissance des peines dissimulées.</p>",
+		strophe:"<p>D’une rive à l’autre, à contre-courant,<br/>ils échouent dans le fleuve du Léthé ;<br/>vol des papillons violets, ivresse,<br/>chant des rossignols. Qu’elle est ténue<br/>la ligne quand s’évente<br><br/>la renaissance des peines dissimulées.</p>",
 		stropheGr:"<p>όχθη ποταμός λήθης κόντρα ρέμα·<br/>χοροπηδούν μαβιές φαρφάλες, μέθη,<br/>κελάηδισμα των αηδονιών. Τι λεπτή<br/>είν’ η γραμμή σαν ξεθυμαίνει ανάσταση<br/>κρυφών καημών.</p>"
 
 	},
