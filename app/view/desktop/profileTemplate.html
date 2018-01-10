@@ -498,5 +498,16 @@
           </div>
         </section>
         <hr/>
-        
+        <section>
+      <div class="row" ng-repeat="vid in  po.video|filter:{idVideo:1}:true" class="ng-cloak">
+        <div  class="col-sm-12">
+          <video controls class="videocontainer" ng-attr-poster="video/png/{{vid.file}}.jpg" autobuffer="true" controlsList="nodownload" contextmenu="return false" oncontextmenu="return false">
+              <source ng-src="video/mp4/{{vid.file}}.mp4" autoplay="false"  controller="true" width="500px" height="281px" type="video/mp4"  preload="auto" allowfullscreen="true" >
+              <source ng-src="video/webm/{{vid.file}}.webm" autoplay="false"  controller="true" width="500px" height="281px" type="video/webm"  preload="auto" allowfullscreen="true" >
+              <source ng-src="video/ogv/{{vid.file}}.ogv" autoplay="false"  controller="true" width="500px" height="281px" type="video/ogv"  preload="auto" allowfullscreen="true" >
+    
+          </video>
+        </div>
+      </div>
+    </section> 
 </div> 
