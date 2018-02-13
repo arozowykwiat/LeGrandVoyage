@@ -590,7 +590,7 @@
             </div>
           </div>
         </section>
-             <section>
+        <section>
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:10}:true| filterStrophe:[1,2]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -608,4 +608,72 @@
             </div>
           </div>  
         </section>
+        <hr/>
+        <section>
+          <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:10}:true| filterStrophe:[3,4]" class="ng-cloak">
+            <div  class="col-sm-6">
+              <p ng-bind-html="poe.stropheGr"></p>
+            </div>
+            <div  class="col-sm-6">
+              <p ng-bind-html="poe.strophe"></p>
+            </div>
+          </div>
+        </section>
+        <hr/>
+        <section>
+          <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:11}| filter:{idStrophe:1}:true">
+            <div  class="col-sm-6">
+              <h4 ng-bind="poe.titreGr"></h4>
+            </div>
+            <div  class="col-sm-6">
+              <h4 ng-bind="poe.titre"></h4>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:11}:true| filterStrophe:[1]" class="ng-cloak">
+            <div  class="col-sm-6">
+              <p ng-bind-html="poe.stropheGr"></p>
+            </div>
+            <div  class="col-sm-6">
+              <p ng-bind-html="poe.strophe"></p>
+            </div>
+          </div>
+        </section>
+        <hr/>
+        <section>
+          <div class="row" ng-repeat="vid in  po.video|filter:{idVideo:5}:true" class="ng-cloak">
+            <div  class="col-sm-12">
+              <video controls class="videocontainer" ng-attr-poster="video/png/{{vid.file}}.jpg" autobuffer="true" controlsList="nodownload" contextmenu="return false" oncontextmenu="return false">
+                <source ng-src="video/mp4/{{vid.file}}.mp4" autoplay="false"  controller="true" width="500px" height="281px" type="video/mp4"  preload="auto" allowfullscreen="true" >
+                <source ng-src="video/webm/{{vid.file}}.webm" autoplay="false"  controller="true" width="500px" height="281px" type="video/webm"  preload="auto" allowfullscreen="true" >
+                <source ng-src="video/ogv/{{vid.file}}.ogv" autoplay="false"  controller="true" width="500px" height="281px" type="video/ogv"  preload="auto" allowfullscreen="true" >
+              </video>
+            </div>
+          </div>
+        </section> 
+        <hr/>
+        <section>
+          <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:11}:true| filterStrophe:[2,3]" class="ng-cloak">
+            <div  class="col-sm-6">
+              <p ng-bind-html="poe.stropheGr"></p>
+            </div>
+            <div  class="col-sm-6">
+              <p ng-bind-html="poe.strophe"></p>
+            </div>
+          </div>
+        </section>
+        <hr/> 
+        <section>
+          <div class="row" ng-repeat="vid in  po.video|filter:{idVideo:4}:true" class="ng-cloak">
+            <div  class="col-sm-12">
+              <video controls class="videocontainer" ng-attr-poster="video/png/{{vid.file}}.jpg" autobuffer="true" controlsList="nodownload" contextmenu="return false" oncontextmenu="return false">
+                <source ng-src="video/mp4/{{vid.file}}.mp4" autoplay="false"  controller="true" width="500px" height="281px" type="video/mp4"  preload="auto" allowfullscreen="true" >
+                <source ng-src="video/webm/{{vid.file}}.webm" autoplay="false"  controller="true" width="500px" height="281px" type="video/webm"  preload="auto" allowfullscreen="true" >
+                <source ng-src="video/ogv/{{vid.file}}.ogv" autoplay="false"  controller="true" width="500px" height="281px" type="video/ogv"  preload="auto" allowfullscreen="true" >
+              </video>
+            </div>
+          </div>
+        </section>        
+        <hr/>        
 </div> 
