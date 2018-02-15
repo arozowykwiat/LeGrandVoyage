@@ -602,6 +602,14 @@ app.filter('filterStrophe', function () {
    };
 });
 
+app.directive("grandTitre",function(){
+	return{
+		restrict:"EA",
+		template:"<header></header>"
+	}
+});
+
+
 var MainController = function(){
 	this.poesie=poeme;
 	this.photo=photo;

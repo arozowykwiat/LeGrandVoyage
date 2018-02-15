@@ -12,12 +12,13 @@
      <link ng-if="styleType.length > 0"
               ng-href='css/{{styleType}}.css'
               rel='stylesheet' type='text/css' >
-     <link href="css/video.css" rel="stylesheet">         
+     <link href="css/video.css" rel="stylesheet"> 
+     <link href="css/desktop.css" rel="stylesheet">        
 </head>
 <body>
-
-   <div ng-view></div>
-
+    <header></header>
+    <div ng-view></div>
+     <script src="js/script.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-sanitize.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.min.js"></script>
