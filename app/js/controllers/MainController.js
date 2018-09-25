@@ -591,6 +591,82 @@ var audio=[
 		file:"barcarolles",
 	}
 ];	
+var credits=[
+	{
+		idCredit:1,
+		nom:"Maria Tsoutsoura",
+		profession:"Écrivaine Grecque",
+		bloc:"porteurs"
+	},
+	{
+		idCredit:2,
+		nom:"Stéphane Sawas",
+		profession:"Traducteur, Professeur des universités",
+		bloc:"porteurs"
+	},
+	{
+		idCredit:3,
+		nom:"Nathalie Dauvois",
+		profession:"Directrice des Presses Sorbonne Nouvelle, Professeur des universités",
+		bloc:"porteurs"
+	},
+	{
+		idCredit:4,
+		nom:"Michelle Leprêtre",
+		profession:"Responsable administrative, technique et financière des Presses Sorbonne Nouvelle",
+		bloc:"porteurs"
+	},
+	{
+		idCredit:5,
+		nom:"Christophe Danneels",
+		profession:"Directeur",
+		bloc:"DSIC"
+	},
+	{
+		idCredit:6,
+		nom:"Olivier Lumbroso",
+		profession:"Sous-directeur",
+		bloc:"ENEAD"
+	},
+	{
+		idCredit:7,
+		nom:"Isabelle Turmaine",
+		profession:"Adjointe au sous-directeur",
+		bloc:"ENEAD"
+	},
+	
+	{
+		idCredit:8,
+		nom:"Isa Cox",
+		profession:"Responsable du service TICE et AVI",
+		bloc:"ENEAD"
+	},
+	{
+		idCredit:9,
+		nom:"JSC",
+		profession:"Assistant de production audiovisuelle multimédia, scène<br/>Chef de projet transmédia et réalisateur",
+		bloc:"Prod"
+	},
+	{
+		idCredit:10,
+		nom:"Audrey Rozowykwiat",
+		profession:"Concepteur Développeuse TICE<br/>Conception, Design d'interface et développement du webdocumentaire",
+		bloc:"Prod"
+	},
+	{
+		idCredit:11,
+		nom:"Florence Brument",
+		profession:"Technicienne des métiers de l'image et du son<br/>Prises de vue, montage",
+		bloc:"Prod"
+	},
+	{
+		idCredit:12,
+		nom:"Camille Gazeau",
+		profession:"Technicien des métiers de l'image et du son<br/>Prises de vue, Prises de son",
+		bloc:"Prod"
+	}
+	
+];
 app.filter('filterStrophe', function () {  
     return function(inputs,filterValues) {
       var output = [];
@@ -616,6 +692,7 @@ var MainController = function(){
 	this.video=video;
 	this.explication=explication;
 	this.audio=audio;
+	this.credits=credits;
 }
 
 app.config(['$routeProvider','deviceTypeProvider',
