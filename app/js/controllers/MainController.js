@@ -623,11 +623,22 @@ app.config(['$routeProvider','deviceTypeProvider',
      	var deviceTypeProvider = deviceTypeProvider.$get(),
          deviceType = deviceTypeProvider.getDeviceType();
     	 /*Route to Desktop view*/
-    	 $routeProvider.when('/',{
+    	 $routeProvider
+    	.when('/',{
             templateUrl:   'view/'+deviceType+'/profileTemplate.html',
             controller: 'MainController',
             styleType:deviceType
-        });
+        })
+    	.when("/credits", {
+    		templateUrl:   'view/'+deviceType+'/credits.html',
+            controller: 'MainController',
+            styleType:deviceType
+    })
+    	.when("/mentions", {
+        	templateUrl:   'view/'+deviceType+'/mentions.html',
+            controller: 'MainController',
+            styleType:deviceType
+    });
   }]);
 
 
