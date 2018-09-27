@@ -22,3 +22,9 @@ npm-debug.log*
 *.eot
 *.ttf
 *.woff
+app/audio
+app/video
+app/img
+audio
+video
+img
