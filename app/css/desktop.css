@@ -8,8 +8,36 @@ header{
 	margin-bottom: 10px;
 }
 #credits{
+	margin-top: 2em;
 	text-align: center;
 }
 #credits span{
 	margin-left: 1em;
+}
+#page-credits{
+	margin-top:2em;
+	margin-left: 20em;
+}
+#page-credits .container{
+	margin:0em;
+	padding: 0em;
+	}
+#page-credits section{
+	margin:0em;
+	padding: 0em;
+	}
+#page-credits h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+#page-credits section h2{
+	margin:0em;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	padding: 0em;
+	font-size:22px;
+	font-weight: bold;
+	}
+#page-credits section div{
+	font-size:16px;
 }

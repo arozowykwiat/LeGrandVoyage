@@ -1,12 +1,13 @@
-<h1>credits</h1>
+<div id="page-credits">
+<h1>Crédits</h1>
 <div class="container" ng-controller="MainController as po">
         <section>
           <h2>Porteurs du projet</h2>
           <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'porteurs'}:true" class="ng-cloak">
-            <div  class="col-sm-6">
+            <div  class="col-sm-2">
               <p ng-bind-html="cred.nom"></p>
             </div>
-            <div  class="col-sm-6">
+            <div  class="col-sm-10">
               <p ng-bind-html="cred.profession"></p>
             </div>
           </div>
@@ -14,10 +15,10 @@
         <section>
           <h2>Direction des systèmes d'information et de communication</h2>
           <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'DSIC'}:true" class="ng-cloak">
-            <div  class="col-sm-6">
+            <div  class="col-sm-2">
               <p ng-bind-html="cred.nom"></p>
             </div>
-            <div  class="col-sm-6">
+            <div  class="col-sm-10">
               <p ng-bind-html="cred.profession"></p>
             </div>
           </div>
@@ -25,10 +26,21 @@
         <section>
           <h2>Sous direction ENEAD</h2>
           <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'ENEAD'}:true" class="ng-cloak">
-            <div  class="col-sm-6">
+            <div  class="col-sm-2">
               <p ng-bind-html="cred.nom"></p>
             </div>
-            <div  class="col-sm-6">
+            <div  class="col-sm-10">
+              <p ng-bind-html="cred.profession"></p>
+            </div>
+          </div>
+        </section>
+                <section>
+          <h2>Equipe de production</h2>
+          <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'Prod'}:true" class="ng-cloak">
+            <div  class="col-sm-2">
+              <p ng-bind-html="cred.nom"></p>
+            </div>
+            <div  class="col-sm-10">
               <p ng-bind-html="cred.profession"></p>
             </div>
           </div>
@@ -42,3 +54,4 @@
           </div>  
         </section>  
 </div> 
+</div>
