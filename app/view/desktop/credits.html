@@ -1,7 +1,8 @@
-<p>credits</p>
+<h1>credits</h1>
 <div class="container" ng-controller="MainController as po">
         <section>
-          <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:porteur}" class="ng-cloak">
+          <h2>Porteurs du projet</h2>
+          <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'porteurs'}:true" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="cred.nom"></p>
             </div>
@@ -10,6 +11,7 @@
             </div>
           </div>
         </section>
+        
         <section>
           <div id="credits">
             <span><a href="#!">Accueil</a>
