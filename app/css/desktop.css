@@ -1,4 +1,9 @@
-
+body, p, #credits {
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3{
+	font-family: 'Cormorant Garamond', serif;	
+}
 header{
 	background-image: url("../img/couverture.jpg");
 	background-repeat: no-repeat;
@@ -30,6 +35,8 @@ header{
 #page-credits h1{
 	font-size: 40px;
 	font-weight: bold;
+	font-family: 'Cormorant Garamond', serif;
+
 }
 #page-credits section h2{
 	margin:0em;
@@ -38,7 +45,32 @@ header{
 	padding: 0em;
 	font-size:22px;
 	font-weight: bold;
+	font-family: 'Cormorant Garamond', serif;
+
 	}
 #page-credits section div{
+	font-size:16px;
+}
+/* Mise en forme de la page credits.html */
+#page-mentions{
+	margin-top:2em;
+	margin-left: 20em;
+}
+#page-mentions .container{
+	margin:0em;
+	padding: 0em;
+	}
+#page-mentions section{
+	margin:0em;
+	padding: 0em;
+	}
+#page-mentionss h1{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Cormorant Garamond', serif;
+
+}
+
+#page-mentions section div{
 	font-size:16px;
 }
