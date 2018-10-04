@@ -23,6 +23,17 @@
           </div>
         </section>
         <section>
+          <h2>Sous direction ENEAD</h2>
+          <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'ENEAD'}:true" class="ng-cloak">
+            <div  class="col-sm-6">
+              <p ng-bind-html="cred.nom"></p>
+            </div>
+            <div  class="col-sm-6">
+              <p ng-bind-html="cred.profession"></p>
+            </div>
+          </div>
+        </section>
+        <section>
           <div id="credits">
             <span><a href="#!">Accueil</a>
             <span>Credits</span>
