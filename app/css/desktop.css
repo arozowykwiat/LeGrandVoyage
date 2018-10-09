@@ -84,3 +84,7 @@ header{
 	 margin: 0 auto;
 	 width: 100%;
 }
+/*centrage des images*/
+.col-sm-12{
+	text-align: center;
+}
