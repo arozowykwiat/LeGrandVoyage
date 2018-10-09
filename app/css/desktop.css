@@ -79,3 +79,8 @@ header{
 #page-mentions section div{
 	font-size:16px;
 }
+/*centrage des vidéos*/
+.videocontainer{
+	 margin: 0 auto;
+	 width: 100%;
+}
