@@ -667,6 +667,12 @@ var credits=[
 	}
 	
 ];
+var creditsImages=[
+	{
+		idCreditsImages:1,
+		credit:"<i>Western Approach to the Acropolis, Athens</i>, Joseph-Philibert Girault de Prangey, Daguerreotype,  3 3/4 × 9 7/16 in. (9.5 × 24 cm), 1842, The Metropolitam Museum of Art, Purchase, Philippe de Montebello Fund, Mr. and Mrs. John A. Moran Gift, in memory of Louise Chisholm Moran, Joyce F. Menschel and Annette de la Renta Gifts, and funds from various donors, 2016 (2016.92). www.metmuseum.org"
+	}
+];
 app.filter('filterStrophe', function () {  
     return function(inputs,filterValues) {
       var output = [];
@@ -693,6 +699,7 @@ var MainController = function(){
 	this.explication=explication;
 	this.audio=audio;
 	this.credits=credits;
+	this.creditsImages=creditsImages;
 }
 
 app.config(['$routeProvider','deviceTypeProvider',

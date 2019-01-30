@@ -88,3 +88,12 @@ header{
 .col-sm-12{
 	text-align: center;
 }
+.row.creditsImages {
+	margin-bottom: 1em;
+}
+.row.creditsImages p{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	text-align: left;
+}
