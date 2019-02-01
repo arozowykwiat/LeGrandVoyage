@@ -757,8 +757,62 @@ var creditsImages=[
 		collection:  "The Metropolitam Museum of Art", 
 		creditline:"Harris Brisbane Dick Fund, 1917",
 		web:"www.metmuseum.org"
+	},
+	{
+		idCreditsImages: 9,
+		titre: "Port Amoy",
+		auteur: "John Thomson", 
+		type:"Albumine argentique d'un négatif de verre", 
+		dimensions:"17 × 23.5 cm",
+		date: "1869",
+		collection:  "The Metropolitam Museum of Art", 
+		creditline:"Gilman Collection, Purchase, Robert Rosenkranz Gift, 2005",
+		web:"www.metmuseum.org"
+	},
+	{
+		idCreditsImages: 10,
+		titre: "Harpie",
+		auteur: "Jean-Baptiste Coriolan", 
+		type:"Illustration", 
+		dimensions:"Monstrorum historia d'Ulisse Androvandi, p. 337",
+		date: "1642",
+		collection:  "University of Oklahoma Libraries", 
+		creditline:"Courtesy History of Science Collections",
+		web:"hos.ou.edu/galleries/16thCentury/Aldrovandi/1570/"
+	},
+	{
+		idCreditsImages: 11,
+		titre: "L'amour",
+		auteur: "Paul-Albert Besnard", 
+		type:"gravure", 
+		dimensions:"45.8 × 32 cm",
+		date: "1885-1887",
+		collection:  "The Metropolitam Museum of Art", 
+		creditline:"The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1977",
+		web:"www.metmuseum.org"
+	},
+	{
+		idCreditsImages: 12 ,
+		titre: "La Mort",
+		auteur: "Alphonse Édouard Enguérand Aufray de Roc'Bhian", 
+		type:"Gravure", 
+		dimensions:"22.1 × 31 cm",
+		date: "XIXème siècle",
+		collection:  "The Metropolitam Museum of Art", 
+		creditline:"The Elisha Whittelsey Fund, 1959",
+		web:"www.metmuseum.org"
+	},
+	{
+		idCreditsImages: 13 ,
+		titre: "Etude Nuage",
+		auteur: "John Constable", 
+		type:"Aquarelle sur mine de plomb", 
+		dimensions:"12.7 × 15.2 cm",
+		date: "1830-1835",
+		collection:  "The Metropolitam Museum of Art", 
+		creditline:"Purchase, Director's Fund, the Elisha Whittelsey Collection, the Elisha Whittelsey Fund, and James D. Krugman Gift, 2016",
+		web:"www.metmuseum.org"
 	}
-
 ];
 app.filter('filterStrophe', function () {  
     return function(inputs,filterValues) {
