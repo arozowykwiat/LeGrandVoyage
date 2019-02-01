@@ -712,8 +712,52 @@ var creditsImages=[
 		collection:  "The Metropolitam Museum of Art", 
 		creditline:"Catharine Lorillard Wolfe Collection, Wolfe Fund, 1896",
 		web:"www.metmuseum.org"
-	}
+	},  
+	{
+		idCreditsImages: 5,
+		titre: "Baleine ",
+		auteur: "<i>Deux livres sur les êtres aquatiques, avec des images les représentant vivants autant qu’il a été possible</i>", 
+		type:"Pierre Bellon", 
+		dimensions:" Parisiis, Apud C. Stephanum",
+		date: "1553",
+		collection:  "Ernst Mayr Library", 
+		creditline:"Harvard University Museum of Comparative Zoology",
+		web:"library.mcz.harvard.edu"
+	},
 	
+	  {
+		idCreditsImages: 6,
+		titre: "Fissure Vent à Steamboat Springs, Nevada",
+		auteur: "Timothy H. O'Sullivan", 
+		type:"Albumine argentique d'un négatif de verre", 
+		dimensions:" 41.3 x 47.6 cm",
+		date: "1867",
+		collection:  "The Metropolitam Museum of Art", 
+		creditline:"Gilman Collection, Purchase, Marlene Nathan Meyerson Family Foundation Gift, 2005",
+		web:"www.metmuseum.org"
+	},
+	  {
+		idCreditsImages: 7,
+		titre: "Cliffs and Waves",
+		auteur: "Arthur B. Davies", 
+		type:"Pastel sur papier vélin gris foncé", 
+		dimensions:"26 x 31.8 cm",
+		date: "1958",
+		collection:  "The Metropolitam Museum of Art", 
+		creditline:" Gift of A. W. Bahr, 1958",
+		web:"www.metmuseum.org"
+	},
+	{
+		idCreditsImages: 8,
+		titre: "Nocturne: La Tamise à Battersea",
+		auteur: "James McNeill Whistler", 
+		type:"Lithotinte avec grattage, fond semi-teinté préparé, deuxième état sur deux (Chicago), imprimé à l'encre douce gris-noir sur bleu pâle chine vergé monté sur papier vélin ivoire", 
+		dimensions:"17.1 × 25.9 cm",
+		date: "1878",
+		collection:  "The Metropolitam Museum of Art", 
+		creditline:"Harris Brisbane Dick Fund, 1917",
+		web:"www.metmuseum.org"
+	}
 
 ];
 app.filter('filterStrophe', function () {  
