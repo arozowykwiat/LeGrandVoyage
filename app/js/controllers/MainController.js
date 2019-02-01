@@ -670,8 +670,51 @@ var credits=[
 var creditsImages=[
 	{
 		idCreditsImages:1,
-		credit:"<i>Western Approach to the Acropolis, Athens</i>, Joseph-Philibert Girault de Prangey, Daguerreotype,  3 3/4 × 9 7/16 in. (9.5 × 24 cm), 1842, The Metropolitam Museum of Art, Purchase, Philippe de Montebello Fund, Mr. and Mrs. John A. Moran Gift, in memory of Louise Chisholm Moran, Joyce F. Menschel and Annette de la Renta Gifts, and funds from various donors, 2016 (2016.92). www.metmuseum.org"
+		titre: "Approche occidentale de l'Acropole, Athènes",
+		auteur: "Joseph-Philibert Girault de Prangey", 
+		type:"Daguerréotype", 
+		dimensions:"9.5 × 24 cm",
+		date: "1842",
+		collection:  "The Metropolitam Museum of Art", 
+		creditline:"Purchase, Philippe de Montebello Fund, Mr. and Mrs. John A. Moran Gift, in memory of Louise Chisholm Moran, Joyce F. Menschel and Annette de la Renta Gifts, and funds from various donors, 2016",
+		web:"www.metmuseum.org"
+	},
+		{
+		idCreditsImages:2,
+		titre: "Aesculap-Schlange",
+		auteur: "Eduard Valenta", 
+		type:"Photogravure", 
+		dimensions:"Image: 27.3 × 21.7 cm, papier: 49.9 × 35.3 cm",
+		date: "1896",
+		collection:  "The Metropolitam Museum of Art", 
+		creditline:"Purchase, Philippe de Montebello Fund, Mr. and Mrs. John A. Moran Gift, in memory of Louise Chisholm Moran, Joyce F. Menschel and Annette de la Renta Gifts, and funds from various donors, 2016",
+		web:"www.metmuseum.org"
+	},
+
+	  {
+		idCreditsImages: 3,
+		titre: "Piano droit",
+		auteur: "Matthias M&uuml;ller", 
+		type:"Bois, divers", 
+		dimensions:"156.8 x 107.6 x 56.3cm",
+		date: "1800",
+		collection:  "The Metropolitam Museum of Art", 
+		creditline:"The Crosby Brown Collection of Musical Instruments, 1889",
+		web:"www.metmuseum.org"
+	},
+	  {
+		idCreditsImages: 4,
+		titre: "Baleiniers",
+		auteur: "Joseph Mallord William Turner", 
+		type:"Huile sur toile", 
+		dimensions:"91.8 x 122.6 cm",
+		date: "1845",
+		collection:  "The Metropolitam Museum of Art", 
+		creditline:"Catharine Lorillard Wolfe Collection, Wolfe Fund, 1896",
+		web:"www.metmuseum.org"
 	}
+	
+
 ];
 app.filter('filterStrophe', function () {  
     return function(inputs,filterValues) {
