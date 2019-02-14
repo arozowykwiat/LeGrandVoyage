@@ -843,11 +843,11 @@ var MainController = function(){
 	this.creditsImages=creditsImages;
 }
 
-app.config(['$routeProvider','deviceTypeProvider','$httpProvider',
-   function($routeProvider,deviceTypeProvide, $httpProvider) {
+
+app.config(['$routeProvider','deviceTypeProvider',
+   function($routeProvider,deviceTypeProvider) {
      	var deviceTypeProvider = deviceTypeProvider.$get(),
          deviceType = deviceTypeProvider.getDeviceType();
-         $httpProvider.interceptors.push('responseObserver');
     	 /*Route to Desktop view*/
     	 $routeProvider
     	.when('/',{
