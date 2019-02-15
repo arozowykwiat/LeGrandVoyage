@@ -12,7 +12,7 @@
             </div>
           </div>
         </section>
-        <section>
+        <section> 
           <h2>Direction des systèmes d'information et de communication</h2>
           <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'DSIC'}:true" class="ng-cloak">
             <div  class="col-sm-2">
@@ -34,7 +34,7 @@
             </div>
           </div>
         </section>
-                <section>
+        <section>
           <h2>Equipe de production</h2>
           <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'Prod'}:true" class="ng-cloak">
             <div  class="col-sm-2">
@@ -46,12 +46,21 @@
           </div>
         </section>
         <section>
+          <h2>Crédits images</h2>
+          <div class="row creditsImages" ng-repeat="creditsImages in  po.creditsImages" class="ng-cloak">
+             <div  class="col-sm-12">
+              <p><i><span ng-bind-html="creditsImages.titre"></span></i>, <span ng-bind-html="creditsImages.auteur"></span>, <span ng-bind-html="creditsImages.type"></span>, <span ng-bind-html="creditsImages.dimensions"></span>, <span ng-bind-html="creditsImages.date"></span>, <span ng-bind-html="creditsImages.collection"></span>, <span ng-bind-html="creditsImages.creditline"></span>, <a ng-href="http://{{creditsImages.web}}" target="_blank"><span ng-bind-html="creditsImages.web"></span></a>.</p>
+            </div>
+          </div>
+        </section>
+        <section>
           <div id="credits">
             <span><a href="#!">Accueil</a></span>
             <span>Credits</span>
             <span><a href="#!mentions">Mentions légales</a></span>
-            <span>Version 1.1</span>
+            <span>Version 1.1 pour mobile</span>
           </div>  
-        </section>  
-</div> 
+        </section> 
+        <br/>
+</div>  
 </div>
