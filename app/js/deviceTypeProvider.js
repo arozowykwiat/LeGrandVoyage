@@ -12,7 +12,7 @@ userAgentString = $window['navigator']['userAgent'] ||$window['navigator']['vend
 	
 width = $window['outerWidth'],isSmart = (/iPhone|iPod|iPad|Silk|Android|BlackBerry|Opera Mini|IEMobile/).test(userAgentString);
                    if(isSmart&& width >= 768){
-                       deviceType = "mobile";
+                       deviceType = "tablet";
                    }else if(isSmart&& width <= 767){
                        deviceType = "mobile";
                    }
