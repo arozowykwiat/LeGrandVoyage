@@ -460,23 +460,23 @@ var poeme=[
 var explication=[
 	{
 		idExplication:1,
-		explication:"<p class='lead text-left'>La poésie occupe une place centrale dans la vie et l’oeuvre de l’écrivaine et universitaire grecque Maria Tsoutsoura, née à Athènes en 1959. Mais si elle pratique le vers au quotidien, elle ne publie sa poésie qu’avec parcimonie.</p>"
+		explication:"<p class='lead text-justify'>La poésie occupe une place centrale dans la vie et l’oeuvre de l’écrivaine et universitaire grecque Maria Tsoutsoura, née à Athènes en 1959. Mais si elle pratique le vers au quotidien, elle ne publie sa poésie qu’avec parcimonie.</p>"
 	},
 	{
 		idExplication:2,
-		explication:"<p class='lead text-left'>Le Grand Voyage (2015), dont le présent ouvrage constitue la première édition,est son second recueil, journal de bord d’une quête intellectuelle et artistique, intime et sociale dans un demi-siècle grec trouble et ambigu. Le lyrisme dramatique à l’oeuvre dans son premier recueil, Les 4 saisons (2000), qui traite « des dilemmes du corps et des passions de l’esprit », laisse place ici à une méditation sur l’être face au temps, qui adopte parfois des tonalités élégiaques.</p>"
+		explication:"<p class='lead text-justify'>Le Grand Voyage (2015), dont le présent ouvrage constitue la première édition,est son second recueil, journal de bord d’une quête intellectuelle et artistique, intime et sociale dans un demi-siècle grec trouble et ambigu. Le lyrisme dramatique à l’oeuvre dans son premier recueil, Les 4 saisons (2000), qui traite « des dilemmes du corps et des passions de l’esprit », laisse place ici à une méditation sur l’être face au temps, qui adopte parfois des tonalités élégiaques.</p>"
 	},
 	{
 		idExplication:3,
-		explication:"<p class='lead text-left'>L’architecture du recueil rappelle la composition musicale ; chaque pièce constitue un poème autonome, mais l'ensemble est structuré par des motifs dont la signification et l’effet varient d’un poème à l’autre.</p>"
+		explication:"<p class='lead text-justify'>L’architecture du recueil rappelle la composition musicale ; chaque pièce constitue un poème autonome, mais l'ensemble est structuré par des motifs dont la signification et l’effet varient d’un poème à l’autre.</p>"
 	},
 	{
 		idExplication:4,
-		explication:"<p>Les Strophades mentionnées dans « Le bateau » sont un archipel de deux îlots au sud de Zante : l’un abrite un monastère gardé par un ermite ; l’autre, l’inhabité Harpie, est le lieu évoqué par Homère et Virgile, Dante et Rabelais, où la mythologie situe les divinités mi-femmes mi-oiseaux de la vengeance divine. Connues pour la beauté de leur parc naturel, passage des oiseaux migrateurs, elles sont à la fois prisées par les yachts en villégiature et les amateurs de plongée et redoutées par les navigateurs.</p>"
+		explication:"<p class='lead text-justify'>Les Strophades mentionnées dans « Le bateau » sont un archipel de deux îlots au sud de Zante : l’un abrite un monastère gardé par un ermite ; l’autre, l’inhabité Harpie, est le lieu évoqué par Homère et Virgile, Dante et Rabelais, où la mythologie situe les divinités mi-femmes mi-oiseaux de la vengeance divine. Connues pour la beauté de leur parc naturel, passage des oiseaux migrateurs, elles sont à la fois prisées par les yachts en villégiature et les amateurs de plongée et redoutées par les navigateurs.</p>"
 	},
 	{
 		idExplication:5,
-		explication:"<p>Le poème fait en outre référence aux légendes qui relient l’histoire de leurs icônes aux mers grecques : conservée aujourd’hui à Zante, la Panagia Thalassomaque (Notre-Dame qui lutte contre la mer) aurait gagné les Strophades depuis Constantinople en naviguant seule sur les flots pour fuir l’iconomachie ; la Panagia Pantochara (Notre-Dame Liesse de l’univers) aurait été dérobée et vendue à Patmos, île de l’Apocalypse.</p>"
+		explication:"<p class='lead text-justify'>Le poème fait en outre référence aux légendes qui relient l’histoire de leurs icônes aux mers grecques : conservée aujourd’hui à Zante, la Panagia Thalassomaque (Notre-Dame qui lutte contre la mer) aurait gagné les Strophades depuis Constantinople en naviguant seule sur les flots pour fuir l’iconomachie ; la Panagia Pantochara (Notre-Dame Liesse de l’univers) aurait été dérobée et vendue à Patmos, île de l’Apocalypse.</p>"
 	}	
 	];
 var photo=[
