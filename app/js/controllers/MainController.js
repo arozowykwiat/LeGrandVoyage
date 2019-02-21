@@ -460,15 +460,15 @@ var poeme=[
 var explication=[
 	{
 		idExplication:1,
-		explication:"<p>La poésie occupe une place centrale dans la vie et l’oeuvre de l’écrivaine et universitaire grecque Maria Tsoutsoura, née à Athènes en 1959. Mais si elle pratique le vers au quotidien, elle ne publie sa poésie qu’avec parcimonie.</p>"
+		explication:"<p class='lead text-left'>La poésie occupe une place centrale dans la vie et l’oeuvre de l’écrivaine et universitaire grecque Maria Tsoutsoura, née à Athènes en 1959. Mais si elle pratique le vers au quotidien, elle ne publie sa poésie qu’avec parcimonie.</p>"
 	},
 	{
 		idExplication:2,
-		explication:"<p>Le Grand Voyage (2015), dont le présent ouvrage constitue la première édition,est son second recueil, journal de bord d’une quête intellectuelle et artistique, intime et sociale dans un demi-siècle grec trouble et ambigu. Le lyrisme dramatique à l’oeuvre dans son premier recueil, Les 4 saisons (2000), qui traite « des dilemmes du corps et des passions de l’esprit », laisse place ici à une méditation sur l’être face au temps, qui adopte parfois des tonalités élégiaques.</p>"
+		explication:"<p class='lead text-left'>Le Grand Voyage (2015), dont le présent ouvrage constitue la première édition,est son second recueil, journal de bord d’une quête intellectuelle et artistique, intime et sociale dans un demi-siècle grec trouble et ambigu. Le lyrisme dramatique à l’oeuvre dans son premier recueil, Les 4 saisons (2000), qui traite « des dilemmes du corps et des passions de l’esprit », laisse place ici à une méditation sur l’être face au temps, qui adopte parfois des tonalités élégiaques.</p>"
 	},
 	{
 		idExplication:3,
-		explication:"<p>L’architecture du recueil rappelle la composition musicale ; chaque pièce constitue un poème autonome, mais l'ensemble est structuré par des motifs dont la signification et l’effet varient d’un poème à l’autre.</p>"
+		explication:"<p class='lead text-left'>L’architecture du recueil rappelle la composition musicale ; chaque pièce constitue un poème autonome, mais l'ensemble est structuré par des motifs dont la signification et l’effet varient d’un poème à l’autre.</p>"
 	},
 	{
 		idExplication:4,
