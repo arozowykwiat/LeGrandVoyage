@@ -1,7 +1,7 @@
 <div id="page-credits" >
 <h1>Crédits</h1>
 <div class="container" ng-controller="MainController as po" >
-        <section>
+        <section class="mt-5 mb-5">
           <h2>Porteurs du projet</h2>
           <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'porteurs'}:true" class="ng-cloak">
             <div  class="col-sm-2">
@@ -12,7 +12,8 @@
             </div>
           </div>
         </section>
-        <section> 
+         <hr/>
+        <section class="mt-5 mb-5"> 
           <h2>Direction des systèmes d'information et de communication</h2>
           <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'DSIC'}:true" class="ng-cloak">
             <div  class="col-sm-2">
@@ -23,7 +24,8 @@
             </div>
           </div>
         </section>
-        <section>
+         <hr/>
+        <section class="mt-5 mb-5">
           <h2>Sous direction ENEAD</h2>
           <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'ENEAD'}:true" class="ng-cloak">
             <div  class="col-sm-2">
@@ -34,7 +36,8 @@
             </div>
           </div>
         </section>
-        <section>
+         <hr/>
+        <section class="mt-5 mb-5">
           <h2>Equipe de production</h2>
           <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'Prod'}:true" class="ng-cloak">
             <div  class="col-sm-2">
@@ -45,15 +48,17 @@
             </div>
           </div>
         </section>
-        <section>
+         <hr/>
+        <section class="mt-5 mb-5">
           <h2>Crédits images</h2>
           <div class="row creditsImages" ng-repeat="creditsImages in  po.creditsImages" class="ng-cloak">
              <div  class="col-sm-12">
-              <p><i><span ng-bind-html="creditsImages.titre"></span></i>, <span ng-bind-html="creditsImages.auteur"></span>, <span ng-bind-html="creditsImages.type"></span>, <span ng-bind-html="creditsImages.dimensions"></span>, <span ng-bind-html="creditsImages.date"></span>, <span ng-bind-html="creditsImages.collection"></span>, <span ng-bind-html="creditsImages.creditline"></span>, <a ng-href="http://{{creditsImages.web}}" target="_blank"><span ng-bind-html="creditsImages.web"></span></a>.</p>
+              <p class="text-left"><i><span ng-bind-html="creditsImages.titre"></span></i>, <span ng-bind-html="creditsImages.auteur"></span>, <span ng-bind-html="creditsImages.type"></span>, <span ng-bind-html="creditsImages.dimensions"></span>, <span ng-bind-html="creditsImages.date"></span>, <span ng-bind-html="creditsImages.collection"></span>, <span ng-bind-html="creditsImages.creditline"></span>, <a ng-href="http://{{creditsImages.web}}" target="_blank"><span ng-bind-html="creditsImages.web"></span></a>.</p>
             </div>
           </div>
         </section>
-        <section>
+         <hr/>
+        <section class="mt-5 mb-5">
           <div id="credits">
             <span><a href="#!">Accueil</a></span>
             <span>Credits</span>

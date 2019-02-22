@@ -853,17 +853,17 @@ app.config(['$routeProvider','deviceTypeProvider',
     	.when('/',{
             templateUrl:   'view/'+deviceType+'/profileTemplate.html',
             controller: 'MainController',
-            styleType:deviceType
+            styleType: 'css/'+deviceType+'.css'
         })
     	.when("/credits", {
     		templateUrl:   'view/'+deviceType+'/credits.html',
             controller: 'MainController',
-            styleType:deviceType
+            styleType: 'css/'+deviceType+'.css'
     })
     	.when("/mentions", {
         	templateUrl:   'view/'+deviceType+'/mentions.html',
             controller: 'MainController',
-            styleType:deviceType
+            styleType: 'css/'+deviceType+'.css'
     });
   }]);
 

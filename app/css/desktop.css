@@ -5,6 +5,7 @@
 }
 body, p, #credits {
 	font-family: 'Open Sans', sans-serif;
+
 }
 h1, h2, h3{
 	font-family: 'Cormorant Garamond', serif;	
@@ -25,18 +26,7 @@ header{
 	margin-left: 1em;
 }
 /* Mise en forme de la page credits.html */
-#page-credits{
-	margin-top:2em;
-	margin-left: 20em;
-}
-#page-credits .container{
-	margin:0em;
-	padding: 0em;
-	}
-#page-credits section{
-	margin:0em;
-	padding: 0em;
-	}
+
 #page-credits h1{
 	font-size: 40px;
 	font-weight: bold;
@@ -44,10 +34,6 @@ header{
 
 }
 #page-credits section h2{
-	margin:0em;
-	margin-top: 1em;
-	margin-bottom: 0.5em;
-	padding: 0em;
 	font-size:22px;
 	font-weight: bold;
 	font-family: 'Cormorant Garamond', serif;
@@ -56,6 +42,10 @@ header{
 #page-credits section div{
 	font-size:16px;
 }
+
+
+
+
 /* Mise en forme de la page credits.html */
 #page-mentions{
 	margin-top:2em;
