@@ -828,7 +828,7 @@ app.filter('filterStrophe', function () {
 app.directive("grandTitre",function(){
 	return{
 		restrict:"EA",
-		template:"<header></header>"
+		template:"<headers></headers>"
 	}
 });
 
