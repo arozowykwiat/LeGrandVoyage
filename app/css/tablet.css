@@ -1,0 +1,87 @@
+#page{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; /* largeur obligatoire pour être centré */
+}
+body, p, #credits {
+	font-family: 'Open Sans', sans-serif;
+
+}
+h1, h2, h3{
+	font-family: 'Cormorant Garamond', serif;	
+}
+header{
+	background-image: url("../img/couverture.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+#credits{
+	margin-top: 2em;
+	text-align: center;
+}
+#credits span{
+	margin-left: 1em;
+}
+/* Mise en forme de la page credits.html */
+
+#page-credits h1{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Cormorant Garamond', serif;
+
+}
+#page-credits section h2{
+	font-size:22px;
+	font-weight: bold;
+	font-family: 'Cormorant Garamond', serif;
+
+	}
+#page-credits section div{
+	font-size:16px;
+}
+
+
+
+
+/* Mise en forme de la page credits.html */
+#page-mentions{
+	margin-top:2em;
+	margin-left: 20em;
+}
+#page-mentions .container{
+	margin:0em;
+	padding: 0em;
+	}
+#page-mentions section{
+	margin:0em;
+	padding: 0em;
+	}
+#page-mentionss h1{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Cormorant Garamond', serif;
+
+}
+
+#page-mentions section div{
+	font-size:16px;
+}
+/*centrage des vidéos*/
+.videocontainer{
+	 margin: 0 auto;
+	 width: 100%;
+}
+/*centrage des images*/
+.col-sm-12{
+	text-align: center;
+}
+.row.creditsImages {
+	margin-bottom: 1em;
+}
+.row.creditsImages p{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	text-align: left;
+}

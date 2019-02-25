@@ -13,4 +13,3 @@ else {
 document.getElementsByTagName('header')[0].style.height=hauteur+ 'px';
 }
 
-
