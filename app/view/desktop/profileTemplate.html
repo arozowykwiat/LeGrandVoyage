@@ -147,12 +147,19 @@
           class="ng-cloak"></h3>
             </div>
         </div>
+  </section>
+  <section class="mt-5 mb-5">
 
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:2}| filter:{idStrophe:1}:true">
-            <div  class="col-sm-12">
+            <div  class="col-sm-6">
+              <h4 ng-bind="poe.partie"></h4>
+            </div>
+            <div  class="col-sm-6">
               <h4 ng-bind="poe.partie"></h4>
             </div>
         </div>
+  </section class="mt-5 mb-5">
+  <section>
         
             <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[1,2]" class="ng-cloak">
           <div  class="col-sm-6">
@@ -215,10 +222,15 @@
       <hr/> 
   <section class="mt-5 mb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:2}| filter:{idStrophe:10}:true">
-            <div  class="col-sm-12">
+            <div  class="col-sm-6">
+              <h4 ng-bind="poe.partie"></h4>
+            </div>
+            <div  class="col-sm-6">
               <h4 ng-bind="poe.partie"></h4>
             </div>
           </div>
+  </section>
+  <section class="mt-5 mb-5">
 
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[10,11]" class="ng-cloak">
             <div  class="col-sm-6">
@@ -311,7 +323,10 @@
         <hr/>
   <section class="mt-5 mb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:2}| filter:{idStrophe:22}:true">
-            <div  class="col-sm-12">
+            <div  class="col-sm-6">
+              <h4 ng-bind="poe.partie"></h4>
+            </div>
+            <div  class="col-sm-6">
               <h4 ng-bind="poe.partie"></h4>
             </div>
           </div>
