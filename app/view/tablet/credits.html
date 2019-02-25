@@ -1,6 +1,9 @@
 <div id="page-credits">
-<h1>Crédits</h1>
+
 <div class="container" ng-controller="MainController as po">
+        <section>
+          <h1>Crédits</h1>
+        </section>
         <section>
           <h2>Porteurs du projet</h2>
           <div class="row" ng-repeat="cred in  po.credits|filter:{bloc:'porteurs'}:true" class="ng-cloak">

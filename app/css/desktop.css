@@ -25,12 +25,7 @@ header{
 }
 /* Mise en forme de la page credits.html */
 
-#page-credits h1{
-	font-size: 40px;
-	font-weight: bold;
-	font-family: 'Cormorant Garamond', serif;
 
-}
 #page-credits section h2{
 	font-size:22px;
 	font-weight: bold;
@@ -45,10 +40,7 @@ header{
 
 
 /* Mise en forme de la page credits.html */
-#page-mentions{
-	margin-top:2em;
-	margin-left: 20em;
-}
+
 #page-mentions .container{
 	margin:0em;
 	padding: 0em;
