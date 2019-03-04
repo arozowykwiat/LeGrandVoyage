@@ -79,12 +79,13 @@
         <section>
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:1}:true| filter:{idStrophe:1}">
             <div  class="col-sm-6">
+              <kanji-left></kanji-left>
               <h3 ng-bind="poe.titreGr"
           class="ng-cloak"></h3>
             </div>
             <div  class="col-sm-6">
               <h3 ng-bind="poe.titre"
-          class="ng-cloak"></h3>
+          class="ng-cloak"></h3><kanji-right></kanji-right>
             </div>
           </div>
         

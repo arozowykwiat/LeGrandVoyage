@@ -1,6 +1,6 @@
 <div class="container" ng-controller="MainController as po">
-
-   <section>
+  <hr/>
+   <section class="mt-5 mb-5 pt-5 pb-5">
       <div class="row" ng-repeat="vid in  po.video|filter:{idVideo:2}:true" class="ng-cloak">
         <div  class="col-sm-12">
           <video controls class="videocontainer" ng-attr-poster="video/png/{{vid.file}}.jpg" autobuffer="true" controlsList="nodownload" contextmenu="return false" oncontextmenu="return false">
@@ -13,13 +13,15 @@
       </div>
     </section>
     <hr/>
-    <section>
-      <div><p>⎝ Maria Tsoutsoura</p></div>
+  <section class="mt-5 mb-5 pt-5 pb-5">
+
+      <div><p> Maria Tsoutsoura</p></div>
       <div><h1 class="display-4">Le grand voyage</h1></div>
-      <div><h2>Introduction ⎠</h2></div>
+      <div><h2>Introduction </h2></div>
+
     </section>
     <hr/>
-    <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
       <div class="row" ng-repeat="exp in po.explication|filter:{idExplication:1}:true">
         <div  class="col-sm-12">
           <div ng-bind-html="exp.explication"
@@ -28,7 +30,7 @@
       </div>       
     </section>
     <hr/>
-      <section> 
+  <section class="mt-5 mb-5 pt-5 pb-5">
         <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:1}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <img ng-src="img/{{img.file}}" width="80%" />
@@ -37,7 +39,7 @@
         </section>
       <hr/> 
 
-    <section>
+  <section class="mt-5 mb-5 pt-5 pb-5"">
       <div class="row" ng-repeat="exp in po.explication|filter:{idExplication:2}:true">
         <div  class="col-sm-12">
           <div ng-bind-html="exp.explication"
@@ -45,7 +47,7 @@
         </div>
       </div>       
     </section>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
       <div class="row" ng-repeat="exp in po.explication|filter:{idExplication:3}:true">
         <div  class="col-sm-12">
           <div ng-bind-html="exp.explication"
@@ -54,7 +56,7 @@
       </div>       
     </section>
     <hr/>
-       <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
       <div class="row" ng-repeat="vid in  po.video|filter:{idVideo:3}:true" class="ng-cloak">
         <div  class="col-sm-12">
           <video controls class="videocontainer" ng-attr-poster="video/png/{{vid.file}}.jpg" autobuffer="true" controlsList="nodownload" contextmenu="return false" oncontextmenu="return false">
@@ -68,23 +70,25 @@
     </section>
     <hr/>
    
-        <section> 
-          <div class="row">
-            <div  class="col-sm-12">
-              <h2>I</h2>
+  <section class="mt-5 mb-5 pt-5 pb-5 my-5 py-5">
+          <div class="row my-5 py-5">
+            <div  class="col-sm-12 my-5 py-5">
+              <h2 class="display-4">I</h2>
             </div>
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:1}:true| filter:{idStrophe:1}">
             <div  class="col-sm-6">
+              <kanji-left></kanji-left>
               <h3 ng-bind="poe.titreGr"
           class="ng-cloak"></h3>
             </div>
             <div  class="col-sm-6">
               <h3 ng-bind="poe.titre"
           class="ng-cloak"></h3>
+          <kanji-right></kanji-right>
             </div>
           </div>
         
@@ -98,7 +102,7 @@
         </div>
       </section>
       <hr/>
-        <section> 
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:2}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <img ng-src="img/{{img.file}}" width="40%" />
@@ -106,7 +110,7 @@
           </div>
         </section>
       <hr/> 
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:1}:true| filterStrophe:[3,4]" class="ng-cloak">
             <div  class="col-sm-6">
                     <p ng-bind-html="poe.stropheGr"></p>
@@ -117,7 +121,7 @@
           </div>
         </section>
       <hr/> 
-      <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
         <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:3}:true" class="ng-cloak">
           <div  class="col-sm-12">
             <img ng-src="img/{{img.file}}" width="40%" />
@@ -125,7 +129,7 @@
         </div>
       </section>
       <hr/> 
-      <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
         <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:1}| filterStrophe:[5,6,7]" class="ng-cloak">
           <div  class="col-sm-6">
                   <p ng-bind-html="poe.stropheGr"></p>
@@ -136,7 +140,7 @@
         </div>
       </section>
       <hr/> 
-      <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
         <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:2}| filter:{idStrophe:1}:true">
             <div  class="col-sm-6">
               <h3 ng-bind="poe.titreGr"
@@ -147,12 +151,19 @@
           class="ng-cloak"></h3>
             </div>
         </div>
+  </section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
 
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:2}| filter:{idStrophe:1}:true">
-            <div  class="col-sm-12">
+            <div  class="col-sm-6">
+              <h4 ng-bind="poe.partie"></h4>
+            </div>
+            <div  class="col-sm-6">
               <h4 ng-bind="poe.partie"></h4>
             </div>
         </div>
+  </section class="mt-5 mb-5 pt-5 pb-5">
+  <section>
         
             <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[1,2]" class="ng-cloak">
           <div  class="col-sm-6">
@@ -164,7 +175,7 @@
         </div>
       </section>
       <hr/> 
-      <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
         <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[3,4]" class="ng-cloak">
           <div  class="col-sm-6">
             <p ng-bind-html="poe.stropheGr"></p>
@@ -175,7 +186,7 @@
         </div>
       </section>
       <hr/>
-      <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
         <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:4}:true" class="ng-cloak">
           <div  class="col-sm-12">
             <img ng-src="img/{{img.file}}" width="40%" />
@@ -183,7 +194,7 @@
         </div>
       </section>
       <hr/> 
-      <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
         <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[5,6]" class="ng-cloak">
           <div  class="col-sm-6">
             <p ng-bind-html="poe.stropheGr"></p>
@@ -194,7 +205,7 @@
         </div>
       </section>
       <hr/>
-      <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
         <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[7,8,9]" class="ng-cloak">
           <div  class="col-sm-6">
             <p ng-bind-html="poe.stropheGr"></p>
@@ -205,7 +216,7 @@
         </div>
       </section>
       <hr/>
-      <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
         <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:5}:true" class="ng-cloak">
           <div  class="col-sm-12">
             <img ng-src="img/{{img.file}}" width="40%" />
@@ -213,12 +224,17 @@
         </div>
       </section>
       <hr/> 
-      <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:2}| filter:{idStrophe:10}:true">
-            <div  class="col-sm-12">
+            <div  class="col-sm-6">
+              <h4 ng-bind="poe.partie"></h4>
+            </div>
+            <div  class="col-sm-6">
               <h4 ng-bind="poe.partie"></h4>
             </div>
           </div>
+  </section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
 
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[10,11]" class="ng-cloak">
             <div  class="col-sm-6">
@@ -230,7 +246,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+       <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[12,13]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -241,7 +257,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:6}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <img ng-src="img/{{img.file}}" width="40%" />
@@ -249,7 +265,7 @@
           </div>
         </section>
         <hr/> 
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[14,15]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -260,7 +276,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[16,17]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -271,7 +287,7 @@
           </div>
         </section>
         <hr/> 
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:7}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <img ng-src="img/{{img.file}}" width="40%" />
@@ -279,7 +295,7 @@
           </div>
         </section>  
         <hr/> 
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[18,19]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -290,7 +306,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[20,21]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -301,7 +317,7 @@
           </div>
         </section>
         <hr/> 
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:8}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <img ng-src="img/{{img.file}}" width="40%" />
@@ -309,14 +325,17 @@
           </div> 
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:2}| filter:{idStrophe:22}:true">
-            <div  class="col-sm-12">
+            <div  class="col-sm-6">
+              <h4 ng-bind="poe.partie"></h4>
+            </div>
+            <div  class="col-sm-6">
               <h4 ng-bind="poe.partie"></h4>
             </div>
           </div>
         </section>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:2}| filterStrophe:[22,23,24]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -327,7 +346,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:9}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <img ng-src="img/{{img.file}}" width="40%" />
@@ -335,7 +354,7 @@
           </div>  
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="exp in po.explication|filter:{idExplication:4}" class="ng-cloak">
             <div  class="col-sm-12">
               <p ng-bind-html="exp.explication"></p>
@@ -343,7 +362,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:10}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <img ng-src="img/{{img.file}}" width="40%" />
@@ -351,7 +370,7 @@
           </div>  
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="exp in po.explication|filter:{idExplication:5}" class="ng-cloak">
             <div  class="col-sm-12">
               <p ng-bind-html="exp.explication"></p>
@@ -359,7 +378,7 @@
           </div>
         </section>
         <hr/>        
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:3}| filter:{idStrophe:1}:true">
             <div  class="col-sm-6">
               <h4 ng-bind="poe.titreGr"></h4>
@@ -369,7 +388,7 @@
             </div>
           </div>
         </section>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="aud in po.audio|filter:{idAudio:1}">
             <div  class="col-sm-12">
               <audio autobuffer="true"  controls controlsList="nodownload" contextmenu="return false" oncontextmenu="return false">
@@ -380,15 +399,15 @@
           </div>
         </section>
         <hr/>
-        <section> 
-          <div class="row">
-            <div  class="col-sm-12">
-              <h2>II</h2>
+  <section class="mt-5 mb-5 pt-5 pb-5 my-5 py-5">
+          <div class="row my-5 py-5">
+            <div  class="col-sm-12 my-5 py-5">
+              <h2 class="display-4">II</h2>
             </div>
           </div>
         </section>
         <hr/>
-          <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:4}| filter:{idStrophe:1}:true">
             <div  class="col-sm-6">
               <h4 ng-bind="poe.titreGr"></h4>
@@ -398,7 +417,7 @@
             </div>
           </div>
         </section>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:4}:true| filterStrophe:[1,2]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -408,8 +427,8 @@
             </div>
           </div>
         </section>
-        <hr/>
-        <section>
+        <hr/> 
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:11}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <img ng-src="img/{{img.file}}" width="40%" />
@@ -417,7 +436,7 @@
           </div>  
         </section>
         <hr/>
-                <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:4}:true| filterStrophe:[3,4]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -428,7 +447,7 @@
           </div>
         </section>
         <hr/>
-         <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:5}| filter:{idStrophe:1}:true">
             <div  class="col-sm-6">
               <h4 ng-bind="poe.titreGr"></h4>
@@ -438,7 +457,7 @@
             </div>
           </div>
         </section>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="aud in po.audio|filter:{idAudio:2}">
             <div  class="col-sm-12">
               <audio autobuffer="true"  controls controlsList="nodownload" contextmenu="return false" oncontextmenu="return false">
@@ -448,7 +467,7 @@
             </div>
           </div>
         </section>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:5}:true| filterStrophe:[1,2]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -459,7 +478,7 @@
           </div>
         </section>
         <hr/>
-         <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:6}| filter:{idStrophe:1}:true">
             <div  class="col-sm-6">
               <h4 ng-bind="poe.titreGr"></h4>
@@ -469,7 +488,7 @@
             </div>
           </div>
         </section>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:6}:true| filterStrophe:[1,2]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -480,7 +499,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:12}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <img ng-src="img/{{img.file}}" width="40%" />
@@ -488,7 +507,7 @@
           </div>  
         </section>
         <hr/>
-                <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:6}:true| filterStrophe:[3,4]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -499,7 +518,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
       <div class="row" ng-repeat="vid in  po.video|filter:{idVideo:1}:true" class="ng-cloak">
         <div  class="col-sm-12">
           <video controls class="videocontainer" ng-attr-poster="video/png/{{vid.file}}.jpg" autobuffer="true" controlsList="nodownload" contextmenu="return false" oncontextmenu="return false">
@@ -512,7 +531,7 @@
       </div>
     </section> 
     <hr/>
-             <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:8}| filter:{idStrophe:1}:true">
             <div  class="col-sm-6">
               <h4 ng-bind="poe.titreGr"></h4>
@@ -522,7 +541,7 @@
             </div>
           </div>
         </section>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:8}:true| filterStrophe:[1,2,3,4]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -533,7 +552,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:13}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <img ng-src="img/{{img.file}}" width="40%" />
@@ -541,7 +560,7 @@
           </div>  
         </section>
         <hr/>
-             <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:8}:true| filterStrophe:[5,6,7,8]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -552,15 +571,15 @@
           </div>
         </section>
         <hr/>
-        <section> 
-          <div class="row">
-            <div  class="col-sm-12">
-              <h2>III</h2>
+  <section class="mt-5 mb-5 my-5 pt-5 pb-5 py-5">
+          <div class="row my-5 py-5">
+            <div  class="col-sm-12 my-5 py-5">
+              <h2 class="display-4">III</h2>
             </div>
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:9}| filter:{idStrophe:1}:true">
             <div  class="col-sm-6">
               <h4 ng-bind="poe.titreGr"></h4>
@@ -570,7 +589,7 @@
             </div>
           </div>
         </section>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="aud in po.audio|filter:{idAudio:3}">
             <div  class="col-sm-12">
               <audio autobuffer="true"  controls controlsList="nodownload" contextmenu="return false" oncontextmenu="return false">
@@ -581,7 +600,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:10}| filter:{idStrophe:1}:true">
             <div  class="col-sm-6">
               <h4 ng-bind="poe.titreGr"></h4>
@@ -591,7 +610,7 @@
             </div>
           </div>
         </section>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:10}:true| filterStrophe:[1,2]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -602,7 +621,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="img in  po.photo|filter:{idPhoto:14}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <img ng-src="img/{{img.file}}" width="40%" />
@@ -610,7 +629,7 @@
           </div>  
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:10}:true| filterStrophe:[3,4]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -621,7 +640,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:11}| filter:{idStrophe:1}:true">
             <div  class="col-sm-6">
               <h4 ng-bind="poe.titreGr"></h4>
@@ -631,7 +650,7 @@
             </div>
           </div>
         </section>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:11}:true| filterStrophe:[1]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -642,7 +661,7 @@
           </div>
         </section>
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="vid in  po.video|filter:{idVideo:5}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <video controls class="videocontainer" ng-attr-poster="video/png/{{vid.file}}.jpg" autobuffer="true" controlsList="nodownload" contextmenu="return false" oncontextmenu="return false">
@@ -654,7 +673,7 @@
           </div>
         </section> 
         <hr/>
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in  po.poesie|filter:{idPoeme:11}:true| filterStrophe:[2,3]" class="ng-cloak">
             <div  class="col-sm-6">
               <p ng-bind-html="poe.stropheGr"></p>
@@ -665,7 +684,7 @@
           </div>
         </section>
         <hr/> 
-        <section>
+  <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="vid in  po.video|filter:{idVideo:4}:true" class="ng-cloak">
             <div  class="col-sm-12">
               <video controls class="videocontainer" ng-attr-poster="video/png/{{vid.file}}.jpg" autobuffer="true" controlsList="nodownload" contextmenu="return false" oncontextmenu="return false">
@@ -677,12 +696,12 @@
           </div>
         </section>        
         <hr/>
-        <section>
+  <section class="mt-5 mb-5">
           <div id="credits">
             <span>Accueil</a>
             <span><a href="#!credits">Credits</a></span>
             <span><a href="#!mentions">Mentions légales</a></span>
-            <span>Version 1.1 pour tablette</span>
+            <span>Version 1.1 pour tablettes</span>
           </div>  
         </section>  
         <br/>       

@@ -81,12 +81,14 @@
   <section class="mt-5 mb-5 pt-5 pb-5">
           <div class="row" ng-repeat="poe in po.poesie|filter:{idPoeme:1}:true| filter:{idStrophe:1}">
             <div  class="col-sm-6">
-              <h3 ng-bind="poe.titreGr"
+            <kanji-left></kanji-left>
+            <h3 ng-bind="poe.titreGr"
           class="ng-cloak"></h3>
             </div>
             <div  class="col-sm-6">
+
               <h3 ng-bind="poe.titre"
-          class="ng-cloak"></h3>
+          class="ng-cloak"></h3><kanji-right></kanji-right>
             </div>
           </div>
         
@@ -699,8 +701,9 @@
             <span>Accueil</a>
             <span><a href="#!credits">Credits</a></span>
             <span><a href="#!mentions">Mentions légales</a></span>
-            <span>Version 1.1</span>
+            <span>Version 1.1 pour ordinateur</span>
           </div>  
         </section>  
         <br/>       
 </div> 
+   

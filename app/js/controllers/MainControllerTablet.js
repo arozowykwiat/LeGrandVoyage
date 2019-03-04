@@ -2,11 +2,10 @@
 var app = angular.module("grandVoyageApp",['ngSanitize','ngRoute','deviceTypeProvider']);
 var poeme=[
 	{
-
 		idPoeme:1,
 		idStrophe:1,
-		titre:"Ce que tu écris… ",
-		titreGr:" Ό,τι γράφεις...",
+		titre:"Ce que tu écris… ⎠",
+		titreGr:"⎝ Ό,τι γράφεις...",
 		strophe:"<p>… sera lu dans un futur qui peut-être<br>n’existera pas ; il glisse sur l’écume<br/>de glaciers qui fondent. Ce que tu écris<br/>appartient au passé qui a toujours paru,<br/>depuis le temps du serpent, innocent.</p>",
 		stropheGr:"<p>… θα διαβαστεί σ’ ένα μέλλον που ίσως<br>δεν υπάρξει ποτέ. Γλιστρά στον αφρό<br/>παγετώνων που λιώνουν· ό,τι γράφεις<br/>ανήκει σ’ ένα παρελθόν που έμοιαζε<br/>πάντα, απ’ τον καιρό του φιδιού, αθώο.</p>"
 	},
@@ -49,8 +48,8 @@ var poeme=[
 	{
 		idPoeme:2,
 		idStrophe:1,
-		titre:"Le bateau ",
-		titreGr:" Το καράβι",		
+		titre:"Le bateau ⎠",
+		titreGr:"⎝ Το καράβι",		
 		partie:"I",
 		strophe:"<p>Comment mouillera-t-il, ce bateau,<br/>attaché qu’il est sur la grève ? Où ira-t-il<br/>maintenant que les vents sont paralysés ?<br/>Regarde le gros temps qui approche ;<br/>la nuit tombe et la rampe est trempée.</p>",
 		stropheGr:"<p>Πώς θα σαλπάρει τούτο το καράβι,<br/>καθώς το δέσαν έτσι στο γιαλό; Πού<br/>θα τραβήξει σαν έχουν οι ανέμοι<br/>παραλύσει; Bαρύς καιρός σιμώνει<br/>και σαν νυχτώνει, βρεμένη η κουπαστή.</p>"	
@@ -201,14 +200,14 @@ var poeme=[
 	{
 		idPoeme:3,
 		idStrophe:1,
-		titre:"Dense et profond… ",
-		titreGr:" Βαθύς και πυκνός..."
+		titre:"Dense et profond… ⎠",
+		titreGr:"⎝ Βαθύς και πυκνός..."
 	},
 	{
 		idPoeme:4,
 		idStrophe:1,
-		titre:"Appareillage ",
-		titreGr:" Απόπλους",
+		titre:"Appareillage ⎠",
+		titreGr:"⎝ Απόπλους",
 		strophe:"<p>Reste maintenant dans ta médiocrité,<br/>sans étincelle dans ton froid hivernal.<br/>Ton étreinte était douce, mais en moi<br/>elle n’a pas laissé de trace.<br/></p>",
 		stropheGr:"<p>Σ’ αφήνω πια στη μετριότητά σου,<br/>τη χειμωνιά σου άλλο δεν πυροδοτώ.<br/>Γλυκό ήτανε τ’ άγγιγμά σου, όμως<br/>στο χώμα μου δεν άφησε καρπό.</p>"
 
@@ -236,8 +235,8 @@ var poeme=[
 	{
 		idPoeme:5,
 		idStrophe:1,
-		titre:"J’ai la nostalgie… ",
-		titreGr:" Νοστάλγησα…",
+		titre:"J’ai la nostalgie… ⎠",
+		titreGr:"⎝ Νοστάλγησα…",
 		strophe:"<p>… du dernier reflet, oblique,<br/>sur la neige violette qui brille.</p>",
 		stropheGr:"<p>… την τελευταία αναλαμπή, πλάγια,<br/>στο μενεξεδί, αυτόφωτο χιόνι.</p>"
 
@@ -252,8 +251,8 @@ var poeme=[
 	{
 		idPoeme:6,
 		idStrophe:1,
-		titre:"Acherusia ",
-		titreGr:" Αχερουσία",
+		titre:"Acherusia ⎠",
+		titreGr:"⎝ Αχερουσία",
 		strophe:"<p>Pourquoi pensent-ils autant à nous, les morts,<br/>Et pourquoi pensons-nous tant aux morts ?<br/>Nous comptons les jours en prêtant l’oreille<br>à la fin qui approche.</p>",
 		stropheGr:"<p>Πώς και μας μελετάνε τόσο οι νεκροί<br/>και βγήκαν να λιαστούν πάνω στο χιόνι;<br/>Πώς έτσι μελετάμε τόσο τους νεκρούς;<br/>Mετράμε μέρες κι αφουγκραζόμαστε<br/>το τέλος που σιμώνει.</p>"
 
@@ -280,8 +279,8 @@ var poeme=[
 	{
 		idPoeme:7,
 		idStrophe:1,
-		titre:"Aspalathe ",
-		titreGr:" Ασπάλαθος",
+		titre:"Aspalathe ⎠",
+		titreGr:"⎝ Ασπάλαθος",
 		strophe:"<p>Prépare-toi à voler bas dans le brouillard ;<br/>là où méditent les âmes, où elles tâtent les traces,<br/>se figurent les scènes de la vie, calculent les rouages<br/>de l’infini. Ne demande pas…</p>",
 		stropheGr:"<p>Eτοιμάσου για πτήσεις χαμηλές μες στην ομίχλη·<br/>εκεί όπου στοχάζονται οι ψυχές· όπου τα ίχνη<br/>ψηλαφούν, αναθυμούνται τις σκηνές του βίου και<br/>προσμετρούν τα κίνητρα του απείρου. Μη ρωτήσεις…<br/></p>"
 
@@ -337,8 +336,8 @@ var poeme=[
 	{
 		idPoeme:8,
 		idStrophe:1,
-		titre:"Il y a de la sérénité… ",
-		titreGr:" Υπάρχει γαλήνη...",
+		titre:"Il y a de la sérénité… ⎠",
+		titreGr:"⎝ Υπάρχει γαλήνη...",
 		strophe:"<p>… dans ces nues<br/>quand elles s’ouvrent brusquement au soleil aveuglant<br/>qui va se coucher</p>",
 		stropheGr:"<p>… σ’ αυτά τα νέφη<br/>καθώς ανοίγουν ξαφνικά στον ήλιο,<br/>τον εκτυφλωτικό, που πάει να δύσει</p>"
 
@@ -395,15 +394,15 @@ var poeme=[
 		{
 		idPoeme:9,
 		idStrophe:1,
-		titre:"Barcarolle ",
-		titreGr:" Βαρκαρόλα",
+		titre:"Barcarolle ⎠",
+		titreGr:"⎝ Βαρκαρόλα",
 
 	},
 		{
 		idPoeme:10,
 		idStrophe:1,
-		titre:"Les migrateurs ",
-		titreGr:" Τ’ αποδημητικά",
+		titre:"Les migrateurs ⎠",
+		titreGr:"⎝ Τ’ αποδημητικά",
 		strophe:"<p>Les revoici, les oiseaux migrateurs qui chantent.<br/>Qu’ont-ils encore inventé pour affoler les branches<br/>et se faire entendre jusqu’à l’autre côté du boulevard<br/>sans répit ?</p>",
 		stropheGr:"<p>Να πάλι τραγουδούν τ’ αποδημητικά πουλιά.<br/>Ποιος ξέρει τι σκαρώνουν και τρελλαίνουν τα κλαδιά·<br/>κι ακούγονται ως την άλλη πλευρά της λεωφόρου<br/>ασταμάτητα.</p>"
 
@@ -435,8 +434,8 @@ var poeme=[
 	{
 		idPoeme:11,
 		idStrophe:1,
-		titre:"Retour ",
-		titreGr:" Επιστροφή",
+		titre:"Retour ⎠",
+		titreGr:"⎝ Επιστροφή",
 		strophe:"<p>Là où l’homme<br/>n’est qu’une ombre<br/>et la lune une lumière,<br/>quand la forteresse se perd<br/>dans le brouillard des eaux,<br/>reconvertis le serpent en or<br/>jusqu’à ce que le bateau rallie<br/>la géométrie de notre destin.</p>",
 		stropheGr:"<p>Eκεί όπου ο άνθρωπος<br/>και το φεγγάρι ένα φως,<br/>όταν το φρούριο χάνεται<br/>στων υδάτων την ομίχλη,<br/>κάνε πάλι το φίδι χρυσάφι,<br/>ώσπου να δέσει το καράβι<br/>στη γεωμετρία της μοίρας μας.</p>"
 
@@ -853,7 +852,7 @@ app.config(['$routeProvider','deviceTypeProvider',
     	 $routeProvider
     	.when('/',{
             templateUrl:   'view/'+deviceType+'/profileTemplate.html',
-            controller: 'MainController',
+            controller: 'MainControllerTablet',
             styleType: 'css/'+deviceType+'.css'
         })
     	.when("/credits", {
